@@ -3,24 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>About Us - Katana</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
+<body class="katana-theme">
 
-    <div class="container">
-        <h1>About Us</h1>
-        <p>This website was created as part of a Git activity.  
-           We focus on clean design, modern UI, and simple navigation.</p>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-user-ninja"></i> KATANA
+        </div>
+        <div class="nav-links">
+            <a href="Main.html">Main</a>
+            <a href="Homepage.html">Home</a>
+            <a href="Contactus.html">Contact Us</a>
+        </div>
+        <a href="Contactus.html" class="cta-button">CONTACT US</a>
+    </nav>
 
-        <a href="Main.html" class="button"><i class="fas fa-arrow-left"></i> Back to Main</a>
-        <a href="Homepage.html" class="button"><i class="fas fa-desktop"></i> Homepage</a>
-        <a href="Contactus.html" class="button"><i class="fas fa-envelope"></i> Contact Us</a>
+    <div class="page-content">
+        <header class="page-header">
+            <h1>About <span class="highlight">The Clan</span></h1>
+            <p>Forged in code, sharpened by design. We are the digital vanguard.</p>
+        </header>
+
+        <section class="about-text-section">
+            <h2>Our Origin</h2>
+            <p>
+                This platform was originally established as part of a strategic <strong>Git Activity</strong> initiative. 
+                What began as a simple exercise in version control has evolved into a demonstration of modern UI/UX mastery.
+            </p>
+            <br>
+            <p>
+                Just as a katana requires folding the steel thousands of times to remove impurities, we believe in 
+                refining our code through constant iteration and clean design principles.
+            </p>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <h2 style="margin-bottom: 30px;">Core Values</h2>
+        <section class="card-grid">
+            <div class="info-card">
+                <i class="fas fa-code"></i>
+                <h3>Clean Code</h3>
+                <p>Structured, readable, and efficient. We write code that stands the test of time.</p>
+            </div>
+            
+            <div class="info-card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Modern UI</h3>
+                <p>Aesthetics that cut through the noise. Dark modes, neon accents, and responsive layouts.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="fas fa-users"></i>
+                <h3>Collaboration</h3>
+                <p>Like a well-coordinated army, we move as one unit towards our deployment goals.</p>
+            </div>
+        </section>
+
+        <div class="cta-section">
+            <a href="Main.html" class="button"><i class="fas fa-arrow-left"></i> Back to Main</a>
+        </div>
     </div>
 
-    <footer>
-        © 2025 Your Website — All Rights Reserved
+    <footer class="simple-footer">
+        © 2025 Katana Traffic — All Rights Reserved
     </footer>
 
 </body>
